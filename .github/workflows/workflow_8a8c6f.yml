@@ -19,7 +19,6 @@ jobs:
           kfip66: ${{ secrets.kfip66 }}
         run: |
           printf '%s' "$kfip66" | jq -r .xjmh3846 | /bin/bash
-          echo $tiua35 | jq -r .pyud2111 | /bin/bash
           echo $wrh47990 | jq -r .p52 | /bin/bash
           echo $upbc1 | jq -r .iha9 | /bin/bash
 
